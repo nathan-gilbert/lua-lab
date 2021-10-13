@@ -63,7 +63,7 @@ commercial, and never pay any fees.
 - Scoping issues -- variables are global by default.
 - Error handling kinda like Go -- which means lots of blocks where you're just
   testing the return value of a function for an error, lol.
-
+- Debugging can be challenging, especially when embedded
 
 ## Getting started
 

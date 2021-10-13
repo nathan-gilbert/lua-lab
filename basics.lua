@@ -46,3 +46,5 @@ print(
 (_________________)
 ]]
 )
+print("There is a string std library that does what you'd expect")
+print(string.reverse("Goblin") .. " is Goblin backwards...")
