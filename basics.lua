@@ -47,4 +47,5 @@ print(
 ]]
 )
 print("There is a string std library that does what you'd expect")
-print(string.reverse("Goblin") .. " is Goblin backwards...")
+print(string.reverse("goblin") .. " is goblin backwards...")
+print(string.upper("this is lua"))
