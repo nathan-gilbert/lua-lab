@@ -26,7 +26,7 @@ alone language, but instead as code embedded in another application.
 
 For instance:
 
-- Lot's of gaming engines! (World of Warcraft, Corona)
+- Lot's of gaming engines! (World of Warcraft, Solar2D)
 - Networking software: Kong, Nmap, ModSecurity
 - Adobe Lightroom uses it!
 
@@ -39,11 +39,11 @@ more performance there are enhancements such as LuaJIT.
 
 ### Size
 
-One of Lua's advantages is it's small size.
+One of Lua's advantages is its small size.
 
 The source code and documentation are 1.3MB.
 
-The interpreter and std libraries is 278KB!
+The interpreter and std libraries bundle is only 278KB!
 
 Lua provides you with the basics and expects you to write the features you need
 in the language.
@@ -59,10 +59,11 @@ commercial, and never pay any fees.
 
 ## Downsides
 
-- Not a ton of library support compared to say, Python or Javascript.
+- Not a ton of library support compared to say, Python or Javascript. But, check
+  out `luarocks` project (kinda like npm for Lua)
 - Scoping issues -- variables are global by default.
 - Error handling kinda like Go -- which means lots of blocks where you're just
-  testing the return value of a function for an error, lol.
+  testing _one or more_ of the return values of a function for an error, lol.
 - Debugging can be challenging, especially when embedded
 
 ## Getting started
