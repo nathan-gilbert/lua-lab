@@ -35,3 +35,35 @@ print("Size of table: " .. #l)
 -- can also initialize key value pairs in a table
 m = {x = 0, y = 0, z = 100}
 print(m.z)
+
+-- arrays
+a = {}
+for i = 1, 10 do
+  a[i] = i
+end
+print(a[0])
+print("Indices for tables generally start with 1 in Lua")
+for i = 1, #a do
+  print(a[i])
+end
+
+a[10000] = 5
+-- what does # return?
+print("# after appending: " .. #a)
+a[11] = nil
+a[12] = 12
+a[13] = nil
+print("# after appending again: " .. #a)
+
+-- iterating table contents
+t = {100, y = "cool", x = "is", print, "this"}
+for k, v in pairs(t) do
+  print(k, v)
+end
+
+-- there is a table library that does stuff like insert and move items around
+print()
+table.insert(a, 5, 100)
+for i = 1, #a do
+  print(a[i])
+end
