@@ -80,3 +80,7 @@ You can run a script by calling the interpreter with it as an argument:
 
 You can load a chunk of Lua code and then enter the REPL with:
 `lua -i basics.lua`
+
+Check out the  book [Programming in Lua](https://www.lua.org/pil/contents.html)
+
+Check out the sample game engine [here](https://github.com/nathan-gilbert/simple-corona-game)
